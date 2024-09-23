@@ -33,9 +33,13 @@ class _HomePageState extends State<HomePage> {
             IconButton(
               color: Colors.white,
               onPressed: () async {
-                _city = await Navigator.push(context, MaterialPageRoute(builder: (context) => const SearchPage()));
-                print(_city);
-                context.read<WeatherBloc>().add(FetchWeatherEvent(cityName: _city!));
+                if (mounted) {
+                  _city = await Navigator.push(context, MaterialPageRoute(builder: (context) => const SearchPage()));
+                }
+                if (mounted) {
+                  // ignore: use_build_context_synchronously
+                  context.read<WeatherBloc>().add(FetchWeatherEvent(cityName: _city!));
+                }
               },
               icon: const Icon(Icons.search),
             ),
