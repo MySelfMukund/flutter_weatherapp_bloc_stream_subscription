@@ -34,6 +34,9 @@ Ensure you have the following installed:
 3. Install the dependencies:
    ```bash
    flutter pub get
+
+4. Get the API Key from [OpenWeatherMap](https://openweathermap.org/api) and store in the **.env file**
+<img width="698" alt="Screenshot 2024-09-25 at 9 16 08 AM" src="https://github.com/user-attachments/assets/d6c87bde-1fbe-423f-ae75-a00ea76f78c8">
    
 5. Run the app:
    ```bash
