@@ -25,11 +25,11 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/MySelfMukund/flutter_weatherapp_cubit_streamsubscription.git
+   git clone https://github.com/MySelfMukund/flutter_weatherapp_bloc_stream_subscription.git
 
 2. Navigate to the project folder:
    ```bash
-   cd flutter_weatherapp_cubit_streamsubscription
+   cd flutter_weatherapp_bloc_streamsubscription
 
 3. Install the dependencies:
    ```bash
