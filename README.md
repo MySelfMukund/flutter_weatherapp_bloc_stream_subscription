@@ -46,7 +46,7 @@ Ensure you have the following installed:
 Here's an overview of the project folder structure:
    ```plaintext
    lib/
-   ├── cubits/             # Contains Cubits and Bloc logic
+   ├── blocs/              # Contains Cubits and Bloc logic
    ├── models/             # Data models for weather data
    ├── repository/         # API handling and data retrieval logic
    ├── presentations/      # UI screens for displaying weather information
